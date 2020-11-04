@@ -10,7 +10,7 @@ export class Navigation extends Component {
               type="button"
               className="navbar-toggle collapsed"
               data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1"
+              data-target="/#bs-example-navbar-collapse-1"
             >
               {" "}
               <span className="sr-only">Toggle navigation</span>{" "}
@@ -18,7 +18,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
+            <a className="navbar-brand page-scroll" href="/#page-top">
               React Landing Page
             </a>{" "}
           </div>
@@ -29,38 +29,38 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
+                <a href="/#features" className="page-scroll">
                   Features
                 </a>
               </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="page-scroll">
+              {/* <li>
+                <a href="/#services" className="page-scroll">
                   Services
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#portfolio" className="page-scroll">
-                  Gallery
+                <a href="/#portfolio" className="page-scroll">
+                  Galeria
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
+                <a href="/#testimonials" className="page-scroll">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
+                <a href="/#team" className="page-scroll">
                   Team
                 </a>
               </li>
-              <li>
-                <a href="#contact" className="page-scroll">
+              {/* <li>
+                <a href="/#contact" className="page-scroll">
                   Contact
+                </a>
+              </li> */}
+              <li>
+                <a href="/documentacao" className="page-scroll">
+                  Documentação
                 </a>
               </li>
             </ul>
