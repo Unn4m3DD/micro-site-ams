@@ -1,4 +1,4 @@
 {
-  "setup": "npm install",
-  "run": "npm run-script build && serve -s build -l $PORT"
+  "setup": "npm install && npm run-script build",
+  "run": "&& serve -s build -l $PORT"
 }
