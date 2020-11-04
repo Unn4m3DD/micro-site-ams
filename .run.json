@@ -1,0 +1,4 @@
+{
+  "setup": "yarn && yarn build",
+  "run": "node index.js"
+}
