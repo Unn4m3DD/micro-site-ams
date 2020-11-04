@@ -1,4 +1,4 @@
 {
-  "setup": "yarn && yarn build",
-  "run": "node index.js"
+  "setup": "npm install",
+  "run": "npm build && serve -s build -l $PORT"
 }
