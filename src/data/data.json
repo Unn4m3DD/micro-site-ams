@@ -70,23 +70,23 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "André Patacas",
+      "job": "93357"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Denis Yamunaque",
+      "job": "101513"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Luísa Amaral",
+      "job": "93001"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Pedro Loureiro",
+      "job": "92953"
     }
   ],
   "Contact": {
@@ -115,7 +115,7 @@
     },
     {
       "icon": "fa fa-apple",
-      "title": "Alimentos ao domicilio",
+      "title": "Alimentos ao domicílio",
       "text": "Aqui encontra uma serviço de subscrição para entrega de ração ao domicílio"
     }
   ]
