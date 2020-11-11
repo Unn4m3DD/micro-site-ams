@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Pawdemic",
-    "paragraph": ""
+    "paragraph": "Todos os serviços necessários para o bem-estar do seu animal de estimação reunidos numa única app"
   },
   "About": {
     "paragraph": "Mapa de entregáveis",
@@ -114,7 +114,7 @@
       "text": "Aqui pode ver ou publicar anúncios de animais de estimação desaparecidos"
     },
     {
-      "icon": "fa fa-apple",
+      "icon": "fa fa-cart-plus",
       "title": "Alimentos ao domicílio",
       "text": "Aqui encontra uma serviço de subscrição para entrega de ração ao domicílio"
     }
