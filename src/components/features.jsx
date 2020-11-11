@@ -7,6 +7,7 @@ export class features extends Component {
         <div className="container">
           <div className="col-md-10 col-md-offset-1 section-title">
             <h2>Funcionalidades</h2>
+            <h3>{"Todos os serviços necessários para o bem-estar do seu animal de estimação reunidos numa única app"}</h3>
           </div>
           <div className="row">
             {this.props.data
