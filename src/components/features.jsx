@@ -8,7 +8,7 @@ export class features extends Component {
           <div className="col-md-10 col-md-offset-1 section-title">
             <h2>Funcionalidades</h2>
             <p>
-            Todos os serviços necessários para o bem-estar do seu animal de estimação reunidos numa única app
+            Todos os serviços necessários para o bem-estar do seu animal de estimação reunidos numa única aplicação
           </p>
           </div>
           <div className="row">

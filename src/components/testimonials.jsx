@@ -9,7 +9,7 @@ export class testimonials extends Component {
             <h2>Sobre nós</h2>
             <p>
               No contexto da pandemia atual torna-se difícil aceder a serviços necessários à saúde e bem-estar dos nossos animais de estimação.
-              Foi por essa mesma razão que surgiu a PAWDEMIC, uma app que torna mais fácil a gestão de todas as necessidades do seu animal, desde 
+              Foi por essa mesma razão que surgiu a PAWDEMIC, uma aplicação que torna mais fácil a gestão de todas as necessidades do seu animal, desde 
               a alimentação até à vacinação e idas ao veterinário. 
             </p>
           </div>
