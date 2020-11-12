@@ -20,7 +20,7 @@ export class about extends Component {
                   </tr>
                     <tr>
                       <td style={{ textAlign: "left" }}>E1: Micro-Site do Projeto</td>
-                      <td>v1.0<a href=""></a></td>
+                      <td><a href="https://github.com/Unn4m3DD/micro-site-ams/commit/6d409d6b54d5feddbc24f524e583754238559496">v1.0</a></td>
                       <td><a href="v2_0/index.html"></a></td>
                       <td><a href="v3_0/index.html"></a></td>
                       <td><a href="index.html"></a></td>
@@ -35,7 +35,7 @@ export class about extends Component {
                     </tr>
                     <tr>
                       <td style={{ textAlign: "left" }}>E3: Relatório Técnico: Visão do Projeto</td>
-                      <td>v1.0<a href=""></a>
+                      <td><a href="doc/report1.pdf">v1.0</a>
                       </td>
                       <td></td>
                       <td></td>
