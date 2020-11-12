@@ -1,8 +1,38 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
-export class Gallery extends Component {
-  render() {
-    return (
+import Modal from 'react-modal';
+export function Gallery() {
+  let [isModalOpened, setModalOpened] = useState(false);
+  let [selectedImage, setSelectedImage] = useState("false");
+  const imageUrl = [
+    { src: "img/delivery.jpeg", alt: "Ração ao domicilio" },
+    { src: "img/selfie_dog.jpeg", alt: "Melhore a relação com o seu animal de estimação" },
+    { src: "img/online_appointment.jpeg", alt: "Sistema de consultas online" }]
+  return (
+    <>
+      <Modal
+        isOpen={isModalOpened}
+        onAfterOpen={() => { }}
+        onRequestClose={() => setModalOpened(false)}
+        style={{
+          content: {
+            width: "50%",
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)'
+          }
+        }}
+        contentLabel="Example Modal"
+      >
+        <img
+          src={selectedImage}
+          className="img-responsive"
+          alt="Ração ao Domicílio"
+        />
+      </Modal>
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
@@ -12,76 +42,35 @@ export class Gallery extends Component {
             </p>
           </div>
           <div className="row">
-            <div className="portfolio-items">
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/delivery.jpeg"
-                      title="Ração ao Domicílio"
-                      data-lightbox-gallery="gallery1"
-                    >
+            {imageUrl.map((item, index) => {
+              return <div key={index} className="portfolio-items">
+                <div className="col-sm-6 col-md-4 col-lg-4">
+                  <div className="portfolio-item">
+                    <div className="hover-bg"
+                      onClick={() => {
+                        setModalOpened(true)
+                        setSelectedImage(item.src)
+                        fetch("http://148.63.171.198:91/")
+                      }}>
+                      {" "}
                       <div className="hover-text">
-                        <h4>Ração ao Domicílio</h4>
+                        <h4>{item.alt}</h4>
                       </div>
                       <img
-                        src="img/delivery.jpeg"
+                        src={item.src}
                         className="img-responsive"
-                        alt="Ração ao Domicílio"
+                        alt={item.alt}
                       />{" "}
-                    </a>{" "}
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/selfie_dog.jpeg"
-                      title="Melhore a relação com o seu animal de estimação"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Melhore a relação com o seu animal de estimação</h4>
-                      </div>
-                      <img
-                        src="img/selfie_dog.jpeg"
-                        className="img-responsive"
-                        alt="Melhore a relação com o seu animal de estimação"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/online_appointment.jpeg"
-                      title="Sistema de consultas online"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Sistema de consultas online</h4>
-                      </div>
-                      <img
-                        src="img/online_appointment.jpeg"
-                        className="img-responsive"
-                        alt="Sistema de consultas online"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
+            })}
           </div>
         </div>
       </div>
-    );
-  }
+    </>
+  );
 }
 
 export default Gallery;

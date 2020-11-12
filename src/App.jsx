@@ -19,12 +19,12 @@ export class App extends Component {
   state = {
     landingPageData: {},
   }
-  getlandingPageData() {
+  getLandingPageData() {
     this.setState({ landingPageData: JsonData })
   }
 
   componentDidMount() {
-    this.getlandingPageData();
+    this.getLandingPageData();
   }
 
   render() {
