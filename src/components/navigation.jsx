@@ -45,12 +45,12 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="/#testimonials" className="page-scroll">
-                  Testemunhos
+                Sobre nós
                 </a>
               </li>
               <li>
                 <a href="/#team" className="page-scroll">
-                  Sobre nós
+                  Equipa
                 </a>
               </li>
               {/* <li>

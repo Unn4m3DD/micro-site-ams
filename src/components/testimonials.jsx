@@ -6,8 +6,15 @@ export class testimonials extends Component {
       <div id="testimonials">
         <div className="container">
           <div className="section-title text-center">
-            <h2>O que dizem os nossos clientes?</h2>
+            <h2>Sobre nós</h2>
+            <p>
+              No contexto da pandemia atual torna-se difícil aceder a serviços necessários à saúde e bem-estar dos nossos animais de estimação.
+              Foi por essa mesma razão que surgiu a PAWDEMIC, uma app que torna mais fácil a gestão de todas as necessidades do seu animal, desde 
+              a alimentação até à vacinação e idas ao veterinário. 
+            </p>
           </div>
+          
+          {/* <h3>{"No contexto da pandemia atual, o acesso a serviços necessários à saúde dos nossos animais de estimação foi afetada. É por essa razão que esta app foi desenvolvida. "}</h3> */}
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (

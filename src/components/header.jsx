@@ -15,6 +15,10 @@ export class Header extends Component {
                   </h1>
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
+                    &nbsp;
+                  <a href="https://www.royalcanin.com/pt" target="_blank">
+                    <img  src="img/Royal-Canin-logo.png"  alt="" />{" "}
+                  </a>
                   </p>
                   <a
                     href="#features"

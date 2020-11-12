@@ -1,6 +1,7 @@
 {
   "Header": {
-    "title": "Pawdemic"
+    "title": "Pawdemic",
+    "paragraph": "Um produto de "
   },
   "About": {
     "paragraph": "Mapa de entregáveis",
@@ -51,19 +52,19 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/cavalier.jpg",
+      "text": "Woof",
+      "name": "Darcy"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/cat.jpg",
+      "text": "Miau",
+      "name": "Tobias"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/dog.jpg",
+      "text": "grrrr",
+      "name": "Fiona"
     }
   ],
   "Team": [
