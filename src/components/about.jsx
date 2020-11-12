@@ -26,15 +26,7 @@ export class about extends Component {
                       <td><a href="index.html"></a></td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }} >E2: Glossário</td>
-                      <td><a href=""></a>
-                      </td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td style={{ textAlign: "left" }}>E3: Relatório Técnico: Visão do Projeto</td>
+                      <td style={{ textAlign: "left" }}>E2: Relatório técnico: Visão do projeto (Conceção)</td>
                       <td><a href="doc/report1.pdf">v1.0</a>
                       </td>
                       <td></td>
@@ -42,7 +34,7 @@ export class about extends Component {
                       <td></td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }} >E4: Relatório Técnico: Análise de Requisitos </td>
+                      <td style={{ textAlign: "left" }} >E3: Relatório de Análise de Requisitos (Elaboração)</td>
                       <td><a href=""></a>
                       </td>
                       <td><a href=""></a>
@@ -52,30 +44,25 @@ export class about extends Component {
                       </td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }}>E5: Relatório de Desenho/Arquitetura</td>
+                      <td style={{ textAlign: "left" }}>E4: Protótipo exploratório</td>
+                      <td></td>
+                      <td></td>
                       <td></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }} >E6: Protótipo exploratório</td>
+                      <td style={{ textAlign: "left" }} >E5: Relatório de Desenho e implementação</td>
                       <td></td>
                       <td><a href="proto_v1/index.html"></a></td>
                       <td></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }}>E7: Implementação</td>
+                      <td style={{ textAlign: "left" }}>E6: Implementação</td>
                       <td></td>
                       <td></td>
                       <td><a class="popup-with-move-anim" href="#details-lightbox-1"></a></td>
                       <td><a class="popup-with-move-anim" href="#details-lightbox-2"></a></td>
-                    </tr>
-                    <tr>
-                      <td style={{ textAlign: "left" }} >E8: Garantia de qualidade</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td><a href=""></a></td>
                     </tr>
                   </tbody></table>
               </div >
