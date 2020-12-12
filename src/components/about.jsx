@@ -58,6 +58,13 @@ export class about extends Component {
                       <td></td>
                     </tr>
                     <tr>
+                      <td style={{ textAlign: "left" }}>E4: Apresentação</td>
+                      <td></td>
+                      <td><a href="doc/slides2.pdf"> v1.0</a></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
                       <td style={{ textAlign: "left" }} >E5: Relatório de Desenho e implementação</td>
                       <td></td>
                       <td><a href="proto_v1/index.html"></a></td>
