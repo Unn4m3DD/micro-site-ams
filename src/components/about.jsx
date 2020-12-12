@@ -37,16 +37,23 @@ export class about extends Component {
                       <td style={{ textAlign: "left" }} >E3: Relatório de Análise de Requisitos (Elaboração)</td>
                       <td><a href=""></a>
                       </td>
-                      <td><a href=""></a>
+                      <td><a href="doc/report2.pdf">v1.0</a>
                       </td>
                       <td></td>
                       <td><a href=""></a>
                       </td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }}>E4: Protótipo exploratório</td>
+                      <td style={{ textAlign: "left" }}>E4: Protótipo exploratório (apk)</td>
+                      <td></td>
+                      <td><a href="doc/pawdemic1.0.apk"> v1.0</a></td>
                       <td></td>
                       <td></td>
+                    </tr>
+                    <tr>
+                      <td style={{ textAlign: "left" }}>E4: Protótipo exploratório (video)</td>
+                      <td></td>
+                      <td><a href="https://www.youtube.com/watch?v=wwp7AxyEI64"> v1.0</a></td>
                       <td></td>
                       <td></td>
                     </tr>
