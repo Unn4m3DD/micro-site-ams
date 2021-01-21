@@ -21,7 +21,7 @@ export class about extends Component {
                       <td style={{ textAlign: "left" }}>E1: Micro-Site do Projeto</td>
                       <td><a href="https://github.com/Unn4m3DD/micro-site-ams/commit/6d409d6b54d5feddbc24f524e583754238559496">v1.0</a></td>
                       <td><a href=""></a></td>
-                      <td><a href=""></a></td>
+                      <td style={{ textAlign: "center" }} ><a href="https://github.com/Unn4m3DD/micro-site-ams">v2.0</a></td>
                     </tr>
                     <tr>
                       <td style={{ textAlign: "left" }}>E2: Relatório técnico: Visão do projeto (Conceção)</td>
@@ -52,8 +52,8 @@ export class about extends Component {
                       <td></td>
                     </tr>
                     <tr>
-                      <td style={{ textAlign: "left" }}>E4: Apresentação</td>
-                      <td></td>
+                      <td style={{ textAlign: "left" }}>Apresentações</td>
+                      <td><a href="doc/slides1.pdf"> v1.0</a></td>
                       <td><a href="doc/slides2.pdf"> v1.0</a></td>
                       <td><a href="doc/slides3.pdf"> v1.0</a> e <a href="doc/slides4.pdf"> v1.0</a></td>
                     </tr>
@@ -69,12 +69,25 @@ export class about extends Component {
                       <td></td>
                       <td style={{ textAlign: "center" }}><a href="doc/pawdemic2.0.apk"> v2.0</a> ou <a href="https://expo.io/@unn4m3dd/projects/pawdemic">v2.0(Expo)</a></td>
                     </tr>
-                  </tbody></table>
+                    <tr>
+                      <td style={{ textAlign: "left" }} >Demonstração da implementação</td>
+                      <td></td>
+                      <td></td>
+                      <td style={{ textAlign: "center" }}><a href="https://youtu.be/2OMuI4n2xYg">v1.0</a></td>
+                    </tr>
+                    <tr>
+                      <td style={{ textAlign: "left" }} >Repositório da aplicação</td>
+                      <td></td>
+                      <td></td>
+                      <td style={{ textAlign: "center" }}><a href="https://github.com/Unn4m3DD/app-ams">v1.0</a></td>
+                    </tr>
+                  </tbody></table> 
               </div >
             </div >
           </div >
         </div >
       </div >
+      
     )
   }
 }
