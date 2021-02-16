@@ -50,7 +50,7 @@ export function Gallery() {
                       onClick={() => {
                         setModalOpened(true)
                         setSelectedImage(item.src)
-                        fetch("http://148.63.171.198:91/counter")
+                        fetch("http://unn4m3dd.xyz/counter")
                       }}>
                       {" "}
                       <div className="hover-text">
