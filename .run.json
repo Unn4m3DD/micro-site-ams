@@ -1,4 +1,6 @@
 {
   "setup": "yarn && yarn build",
-  "run": "&& serve -s build -l $PORT"
+  "run": "&& serve -s build -l $PORT",
+  "title": "Website promoting PawDemic",
+  "subtitle": "Website promoting a school project"
 }
