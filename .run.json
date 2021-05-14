@@ -2,5 +2,6 @@
   "setup": "yarn && yarn build",
   "run": "&& serve -s build -l $PORT",
   "title": "Website promoting PawDemic",
-  "subtitle": "Website promoting a school project"
+  "subtitle": "Website promoting a school project",
+  "image": "https://raw.githubusercontent.com/Unn4m3DD/micro-site-ams/master/demo.gif"
 }
